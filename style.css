@@ -34,10 +34,45 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.5rem;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-areas: 
+    "one two"
+    "three four"
+    "five six";
   gap: 1.5rem;
+}
+
+.one {
+  grid-are: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
 }
 
 footer p {
