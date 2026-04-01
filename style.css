@@ -27,7 +27,7 @@ header, footer{
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 400;
   padding: 10px;
   font-family: "Knewave", serif;
@@ -42,20 +42,20 @@ h2 {
 }
 
 h3{
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   color: #4D4D4D;
   padding: 1rem 0;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-family: "Knewave", serif;
   font-weight: 400;
   color: #d9376e;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 }
 
 .container {
@@ -92,14 +92,29 @@ h4 {
   grid-area: six;
 }
 
+.pastry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fffffe;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  min-width: 200px;
+  height: auto;
+  max-height: 400px;
+}
+
 footer p {
   font-size: .8rem;
 }
 
-img {
+/* img {
   width: 100%;
   height: auto;
-}
+} */
 
 .bear {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
