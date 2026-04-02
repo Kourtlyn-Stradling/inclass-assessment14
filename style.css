@@ -105,6 +105,16 @@ img {
   min-width: 200px;
   height: auto;
   max-height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+h3 h4 p {
+  margin: 0 1rem;
+}
+
+p {
+  line-height: 1.5;
 }
 
 footer p {
