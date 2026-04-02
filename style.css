@@ -32,6 +32,7 @@ header {
 
 main {
   width: 75vw;
+  margin: auto;
 }
 
 h1 {
@@ -115,6 +116,7 @@ img {
   max-height: 400px;
   object-fit: cover;
   object-position: 50% 50%;
+  border-radius: 10px 10px 0 0;
 }
 
 h3 h4 p a {
@@ -124,6 +126,38 @@ h3 h4 p a {
 p {
   line-height: 1.5;
   padding-bottom: 1rem;
+}
+
+a {
+  padding: 10px 15px;
+  background-color: #ff8e3c;
+  border-radius: 10px;
+}
+
+a:link {
+  color: #0d0d0d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:visited {
+  color: #0d0d0d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #fffffe;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+
+a:active {
+  color: #d9376e;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 400;
 }
 
 footer p {
